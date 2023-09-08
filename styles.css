@@ -46,8 +46,7 @@ body {
 */
 .hero-image {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("komodo.jpg");
-    height: 25%;
-
+    min-height: 25%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,6 +71,12 @@ body {
 @media screen and (max-width: 700px){
     .row {
         flex-direction: column;
+    }
+    .hero-image {
+        display: none;
+    }
+    .hero-text {
+        display: none;
     }
 }
 
