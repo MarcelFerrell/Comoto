@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 .header {
     padding: 50px;
@@ -46,7 +47,7 @@ body {
 */
 .hero-image {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("komodo.jpg");
-    min-height: 25%;
+    height: 25%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,12 +66,16 @@ body {
     flex: 70%;
     background-color: white;
     padding: 20px;
-    overflow: scroll;
+    margin-bottom: 350px;
 }
+
 /* Responsive layout for when screen is less than 700px wide - columns */
 @media screen and (max-width: 700px){
     .row {
         flex-direction: column;
+    }
+    .main {
+        margin-bottom: 1%;
     }
     .hero-image {
         display: none;
@@ -96,3 +101,4 @@ body {
     max-width: 100%;
     height: auto;
 }
+
