@@ -32,3 +32,8 @@ button {
     cursor: pointer;
     width: 100%;
 }
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
