@@ -37,3 +37,13 @@ button {
     top: 8px;
     left: 16px;
 }
+@media screen and (max-width: 800px){
+#image-container{
+    display: none;
+}
+#mainDiv {
+    margin-top: 25%;
+    margin-left: -300%;
+}
+
+}
