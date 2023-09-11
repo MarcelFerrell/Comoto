@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    /* background-image: url("/komodoLogo.png");
+    background-size: 7%; */
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 25px;
+}

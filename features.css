@@ -1,0 +1,23 @@
+body,html {
+    height: 100%;
+}
+.bgimg {
+    background-image: url('/komodo2.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 25px;
+}
+hr {
+    margin: auto;
+    width: 40%;
+}
